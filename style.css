@@ -23,10 +23,15 @@ body {
 #banner {
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
+  padding-top: 10px;
   margin-bottom: 10px;
   font-size: 32px;
   border-bottom: 4px solid #f4f3ee;
+
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
 }
 
 a {
@@ -46,8 +51,11 @@ a {
 }
 
 #albums {
+  /* position: relative;
+  top: 70px; */
   text-align: center;
   letter-spacing: 1px;
+  z-index: 0;
 }
 
 h1 {
@@ -107,6 +115,7 @@ h1 {
   padding-bottom: 10px;
   border-top: 4px solid #f4f3ee;
 
-  position: relative;
-  top: 40px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
