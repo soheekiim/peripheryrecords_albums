@@ -74,6 +74,7 @@ h1 {
   grid-row-gap: 16px;
   margin-left: 180px;
   margin-right: 180px;
+  margin-bottom: 400px;
 
   /* display: flex;
   flex-direction: row;
